@@ -58,7 +58,15 @@ Titanium.Geolocation.getCurrentPosition(function(e){
 	
 	mapView.region = {latitude: latitude, longitude : longitude, latitudeDelta:0.05, longitudeDelta: 0.05};
 	//Ti.API.info('inicia la localización ' + e.latitude + 'latitud '+ e.longitude + ' longitud' );
-	
+	var nombrePunto = Titanium.Map.createAnnotation({
+		latitude:e.latitude,
+		longitude: e.longitude,
+		title: 'usted está aqui',
+		subtitle: txtStartLocation.value,
+		animate:true,
+		pincolor:Titanium.Map.ANNOTATION_RED,
+	});
+	mapView.addAnnotation(nombrePunto)
 });
 
 
