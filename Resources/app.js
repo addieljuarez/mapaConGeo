@@ -57,6 +57,7 @@ Titanium.Geolocation.getCurrentPosition(function(e){
 	var altitudeAccuracy = e.coord.altitudeAccuracy;
 	
 	mapView.region = {latitude: latitude, longitude : longitude, latitudeDelta:0.05, longitudeDelta: 0.05};
+	//Ti.API.info('inicia la localización ' + e.latitude + 'latitud '+ e.longitude + ' longitud' );
 	
 });
 

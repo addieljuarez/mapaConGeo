@@ -6,12 +6,11 @@ Logfile initialized
 [DEBUG] Waiting for device to be ready ...
 [TRACE] adb devices returned 1 devices/emulators
 [DEBUG] Device connected... (waited 0 seconds)
-[DEBUG] waited 0.007188 seconds on emulator to get ready
+[DEBUG] waited 0.005602 seconds on emulator to get ready
 [DEBUG] com.FAM.MapGeo installed? True
 [INFO] Fastdev server running, deploying in Fastdev mode
 [INFO] Copying CommonJS modules...
 [INFO] Copying project resources..
-[TRACE] COPYING MODIFIED FILE: /home/addiel/Titanium Studio Workspace/MapGeo/Resources/app.js => /home/addiel/Titanium Studio Workspace/MapGeo/build/android/bin/assets/Resources/app.js
 [INFO] Tiapp.xml unchanged, skipping class generation
 [DEBUG] Processing Android resource drawables
 [DEBUG] found drawable-notlong-land-hdpi splash screen at /home/addiel/Titanium Studio Workspace/MapGeo/Resources/android/images/res-notlong-land-hdpi/default.png
